@@ -1,7 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { ExternalLink, Github } from "lucide-react"
+import { ArrowDown , ExternalLink, Github } from "lucide-react"
 import Image from "next/image"
 import Personal from "../app/Images/KumarSirPic.jpg"
 import Lic from "../app/Images/LicPic.jpg"
@@ -95,6 +95,10 @@ export function Projects() {
               </Card>
             ))}
           </div>
+        </div>
+        {/* Animated Arrow */}
+        <div className="animate-bounce mt-10">
+          <ArrowDown className="h-5 w-5 sm:h-6 sm:w-6 mx-auto text-muted-foreground" />
         </div>
       </div>
     </section>

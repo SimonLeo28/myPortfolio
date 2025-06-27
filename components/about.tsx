@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card"
-import { Code, Database, Globe, Smartphone } from "lucide-react"
+import { ArrowDown , Code, Database, Globe, Smartphone } from "lucide-react"
 
 export function About() {
   const highlights = [
@@ -59,6 +59,10 @@ export function About() {
               ))}
             </div>
           </div>
+          {/* Animated Arrow */}
+        <div className="animate-bounce">
+          <ArrowDown className="h-5 w-5 sm:h-6 sm:w-6 mx-auto text-muted-foreground" />
+        </div>
         </div>
       </div>
     </section>

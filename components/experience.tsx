@@ -1,6 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { CalendarDays, MapPin } from "lucide-react"
+import { ArrowDown , CalendarDays, MapPin } from "lucide-react"
 
 export function Experience() {
   const experiences = [
@@ -71,6 +71,10 @@ export function Experience() {
               </Card>
             ))}
           </div>
+        </div>
+        {/* Animated Arrow */}
+        <div className="animate-bounce mt-10">
+          <ArrowDown className="h-5 w-5 sm:h-6 sm:w-6 mx-auto text-muted-foreground" />
         </div>
       </div>
     </section>

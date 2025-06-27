@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Label } from "@/components/ui/label"
-import { Mail, Phone, MapPin, Send } from "lucide-react"
+import { ArrowDown , Mail, Phone, MapPin, Send } from "lucide-react"
 
 export function Contact() {
   const [formData, setFormData] = useState({
@@ -156,6 +156,10 @@ export function Contact() {
               </CardContent>
             </Card>
           </div>
+        </div>
+        {/* Animated Arrow */}
+        <div className="animate-bounce mt-10">
+          <ArrowDown className="h-5 w-5 sm:h-6 sm:w-6 mx-auto text-muted-foreground" />
         </div>
       </div>
     </section>

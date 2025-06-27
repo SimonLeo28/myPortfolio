@@ -1,5 +1,6 @@
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { ArrowDown } from "lucide-react"
 
 export function Skills() {
   const skillCategories = [
@@ -61,6 +62,10 @@ export function Skills() {
               </Card>
             ))}
           </div>
+        </div>
+        {/* Animated Arrow */}
+        <div className="animate-bounce mt-10">
+          <ArrowDown className="h-5 w-5 sm:h-6 sm:w-6 mx-auto text-muted-foreground" />
         </div>
       </div>
     </section>
