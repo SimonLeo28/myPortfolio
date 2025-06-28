@@ -65,6 +65,7 @@ html {
 /* Embla base styles */
 .embla {
   position: relative;
+  padding: 0 20px;
 }
 .embla__container {
   display: flex;
@@ -76,4 +77,5 @@ html {
 .embla__slide {
   position: relative;
   min-width: 0;
+  padding: 0 10px;
 }

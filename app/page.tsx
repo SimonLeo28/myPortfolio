@@ -20,6 +20,7 @@ export default function Portfolio() {
         <Contact />
       </main>
       <Footer />
+      
     </div>
   )
 }
